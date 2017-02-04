@@ -1,0 +1,176 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+
+}
+.conteiner{
+	background: lightblue url(../images/bg003.jpg);
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+.bg_tr_img{
+	background: url(../images/tr_img1.png);
+	background-size: 100% 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+.nev{
+	width: 100%;
+	background-color: ;
+	margin: 0 auto;
+}
+.nev ul{
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	padding: 0
+
+}
+.nev ul li{
+	list-style-type: none;
+	display: inline-block;
+	color: #fff;
+	padding: 10px 0px;
+	
+} 
+.nev ul li a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	text-transform: uppercase;
+	padding: 5px 20px;
+	position: relative;
+	transition: all 0.7s ease;
+	font-size: 15px;
+
+}
+.nev ul li a:after{
+	content: "";
+	background: #fff;
+	right: 0px;
+	height: 19px;
+	width: 1px;
+	position: absolute;
+	transition: all 0.7s ease;
+}
+
+.nev ul li:last-child a:after{
+	background:transparent;
+}
+.nev ul li a:hover{
+	background:rgba(229, 236, 241, 0.84);
+	font-size: 16.5px;
+	color: #2C3E50;
+}
+
+.nev ul li a:hover:after{
+	height: 0px;
+}
+
+.form{
+	width: 500px;
+	background-color: #E0E0E0;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 1;
+
+}
+.form_top{
+	margin: 20px auto;
+	display: block;
+	text-align: center;
+}
+
+h1{
+	margin: 0 auto;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 35px;
+	color: #2C3E50;
+	font-family: arial;
+
+}
+img{
+	max-width: 100%;
+	width: 9%;
+	display: inline-block;
+	padding-left: 6px;
+}
+.text_box{
+	width: 100%;
+}
+form{
+	margin: 20px auto;
+	display: block;
+}
+form input{
+	margin: 0px auto;
+    display: block;
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+}
+
+.rem_pss{
+	width: 90%;
+	margin: 15px auto;
+	display: block;
+
+
+}
+.rem_pss div{
+	width: 50%;
+	float: left;
+	padding: 15px 0px;
+	color: #2C3E50;
+}
+.rem_pss a{
+	text-decoration: none;
+	color: #0084BD;
+}
+.f_p{
+	text-align: right;
+}
+.login{
+	width: 100%;
+	margin: 15px 0px;
+	text-align: center;
+}
+.login_but{
+	width: 94%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: #00507E;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+.login_but:hover{
+	background-color: #005f96;
+	font-size: 19px;
+}
+.login p{
+	color: #2C3E50;
+}
+.login p a{
+	text-decoration: none;
+	color: #0084BD;
+}
+.rem_pss a:hover, .login p a:hover{
+	color:#00507E;
+	text-decoration: underline;
+	font-size: 17px;
+}
